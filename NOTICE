@@ -1,0 +1,24 @@
+SAM3-LoRA
+Copyright 2026 李家乐 (github.com/stars-spark)
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE),
+which applies to the original work in this repository — namely the LoRA
+implementation and training/evaluation tooling under `sam3_lora/`, `src/`, the
+top-level `train_*.py` / `inference*.py` / `test_*.py` scripts, the `configs/`,
+and the accompanying documentation.
+
+Third-party components (NOT authored here, redistributed under their own terms):
+
+- `sam3/` contains code derived from Meta Platforms' Segment Anything Model 3
+  (SAM3). This code remains subject to its original upstream license and terms;
+  refer to Meta's official SAM3 repository for the authoritative license. If that
+  license does not permit redistribution, remove the `sam3/` directory and obtain
+  it directly from Meta.
+
+- `asset/bpe_simple_vocab_16e6.txt.gz` and `sam3/assets/bpe_simple_vocab_16e6.txt.gz`
+  are the BPE vocabulary from OpenAI CLIP, redistributed under CLIP's original
+  license.
+
+- The sample dataset descriptions (`README.dataset.txt`, `README.roboflow.txt`)
+  reference the public "RIGID PAVEMENT" dataset on Roboflow Universe, provided by
+  its author under CC BY 4.0.
